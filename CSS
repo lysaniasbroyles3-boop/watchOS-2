@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.watch {
+  width: 100%;
+  max-width: 360px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 20px 15px;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+
+#clock {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#date {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #181818;
+  border-radius: 18px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.card span {
+  display: block;
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.card strong {
+  display: block;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.online {
+  color: #55ff55;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 18px;
+  background: #333;
+  color: white;
+  font-size: 16px;
+}
